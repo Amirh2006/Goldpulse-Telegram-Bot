@@ -1,0 +1,9 @@
+# GoldPulse Bot - runtime and test dependencies
+python-telegram-bot[job-queue]==22.2
+httpx>=0.27,<0.29
+python-dotenv==1.1.1
+
+# Test dependencies
+pytest==8.4.1
+pytest-asyncio==0.26.0
+pytest-httpx>=0.27
